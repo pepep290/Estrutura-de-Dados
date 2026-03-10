@@ -2,9 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Pedro Vítor Silva Cruz 24.2.4086
-//Rafael Araújo Granato 24.2.4085
-
 struct tabuleiro {  // nome deve bater com typedef em func.h
     char **tabuleiro; // matriz 3x3 de chars
 };
@@ -140,3 +137,4 @@ int JogadaMestre(Tab* tab, int coordenadas[2][2]){
 
     return count; // número de jogadas mestres encontradas (0, 1 ou 2)
 }
+
