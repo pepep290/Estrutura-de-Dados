@@ -1,4 +1,3 @@
-// Antigo PExt.h - renomeado para ASI pela mudança de estrutura do programa em geral. Ler comentário do ASI.c.
 #ifndef ASI_H
 #define ASI_H
 #include <stdio.h>
@@ -17,4 +16,5 @@ typedef struct {
 bool sequencialIndexado(regs *registro, FILE *arq, conts* performance);
 int criaTabela(FILE *arq, tipoindice tabela[], conts* performance);
 #endif
+
 
